@@ -5,22 +5,25 @@
 /**
  * main - Entry
  *
- * Return: Always o
+ * Return: Always 0
  */
 int main(void)
 {
-	char ch;
+	int ch = 'a';
+	int CH = 'A';
 
-	for (ch = 'a' ; ch = 'z' ; ch++)
+	while (ch <= 'z')
 	{
 		putchar(ch);
+		ch++;
 	}
-	for (ch = 'A' ; ch = 'Z' ; ch++)
+	while (CH <= 'Z')
 	{
-		putchar(ch);
+		putchar(CH);
+		CH++;
 	}
+
 	putchar('\n');
-
 	return (0);
 }
 
