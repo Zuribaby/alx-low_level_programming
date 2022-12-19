@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints diagonal line n times.
- * @n: times diagonal is printed.
- * Return: no return.
+ * print_diagonal - draws a diagonal line in the terminal.
+ * @n: line length
+ *
+ * Return: nothing on success
  */
 void print_diagonal(int n)
 {
@@ -16,7 +17,7 @@ void print_diagonal(int n)
 		while (count < n)
 		{
 			end = count;
-			while (start == end)
+			while (start <= end)
 			{
 				if (start == end)
 				{
@@ -27,6 +28,8 @@ void print_diagonal(int n)
 					_putchar(' ');
 				start++;
 			}
+			start = 0;
+			count++;
 		}
 	}
 }
