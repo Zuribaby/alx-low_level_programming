@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print _line - the shortest distance between two points is a straight line
- * @n: times straight is printed
+ * print_line - draws a straight line in the terminal.
+ * @n: line length
  *
  * Return: nothing on success
  */
