@@ -4,7 +4,7 @@
  * print _line - the shortest distance between two points is a straight line
  * @n: times straight is printed
  *
- * Return: void
+ * Return: no return
  */
 void print_line(int n)
 {
