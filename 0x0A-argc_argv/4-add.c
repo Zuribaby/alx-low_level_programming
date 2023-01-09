@@ -63,8 +63,8 @@ int main(int argc, char *argv[])
 		count++;
 	}
 
-	printf("%d\n", sum);
+	printf("%d\n", sum); /*print sum*/
 
-	return (0); /*print sum*/
+	return (0);
 }
 
